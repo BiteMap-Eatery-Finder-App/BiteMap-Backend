@@ -7,11 +7,10 @@ namespace backend.Repositories
 {
     public class EstablishmentRepository : IEstablishmentRepository
     {
-        protected readonly IConfiguration _configuration;
-        public AppDbContext _context;
-        public EstablishmentRepository() 
-        { 
-            _context = new AppDbContext(_configuration);
+        private readonly AppDbContext _context;
+        public EstablishmentRepository(AppDbContext context) 
+        {
+            _context = context;
         }
 
         public Establishment GetById(int id)
