@@ -6,7 +6,7 @@ namespace backend.Data
 {
     public class AppDbContext : DbContext
     {
-        protected readonly IConfiguration Configuration;
+        /*protected readonly IConfiguration Configuration;
 
         public AppDbContext(IConfiguration configuration)
         {
@@ -16,8 +16,11 @@ namespace backend.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseNpgsql(Configuration.GetConnectionString("WebApiDatabase"));
-        }
+        }*/
+
+        public AppDbContext(DbContextOptions dbContextOptions) : base(dbContextOptions) { }
 
         public DbSet<Establishment> Establishments { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }
