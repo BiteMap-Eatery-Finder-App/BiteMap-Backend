@@ -18,5 +18,14 @@
         public EstablishmentType Type { get; set; }
 
         //public List<Manager> Managers { get; set; } = new List<Manager> { };
+
+        public Establishment() { }
+
+        public Establishment(string name, string description, EstablishmentType type)
+        {
+            this.Name = name;
+            this.Description = description;
+            this.Type = type;
+        }
     }
 }
