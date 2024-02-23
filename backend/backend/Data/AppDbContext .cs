@@ -22,5 +22,6 @@ namespace backend.Data
 
         public DbSet<Establishment> Establishments { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Reservation> Reservations {  get; set; }
     }
 }
