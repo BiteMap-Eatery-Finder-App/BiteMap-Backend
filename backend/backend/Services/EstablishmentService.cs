@@ -11,7 +11,7 @@ namespace backend.Services
             this.iEstablishmentRepository = iEstablishmentRepository;
         }
 
-        public List<Establishment> GetAll()
+        public ICollection<Establishment> GetAll()
         {
             return this.iEstablishmentRepository.GetAll();
         }

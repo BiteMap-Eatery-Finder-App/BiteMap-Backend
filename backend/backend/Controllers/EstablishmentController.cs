@@ -1,4 +1,5 @@
 ﻿using backend.Data;
+using backend.Models;
 using backend.Repositories;
 using backend.Services;
 using Microsoft.AspNetCore.Http;
@@ -20,6 +21,7 @@ namespace backend.Controllers
         }
 
         [HttpGet("/getAll")]
+        [ProducesResponseType(200, Type=typeof(IEnumerable<Establishment>))]
         public IActionResult GetAll()
         {
             var establishments = establishmentService.GetAll();
@@ -28,6 +30,7 @@ namespace backend.Controllers
         }
 
         [HttpGet("{id}")]
+        [ProducesResponseType(200, Type = typeof(Establishment))]
         public IActionResult GetById([FromRoute]int id) 
         { 
             var establishment = establishmentService.GetById(id);
