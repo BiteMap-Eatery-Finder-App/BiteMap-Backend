@@ -15,11 +15,10 @@ namespace backend.Repositories
 
         public Establishment GetById(int id)
         {
-            List<Establishment> establishments = _context.Establishments.ToList();
-            return establishments.Find(establishment => establishment.Id == id);
+            return _context.Establishments.Where(establishment => establishment.Id == id).FirstOrDefault();
         }
 
-        public List<Establishment> GetAll()
+        public ICollection<Establishment> GetAll()
         {
             return _context.Establishments.ToList();
         }
