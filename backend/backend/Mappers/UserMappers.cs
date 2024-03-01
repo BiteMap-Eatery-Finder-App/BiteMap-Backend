@@ -5,12 +5,16 @@ namespace backend.Mappers
 {
     public static class UserMappers
     {
-        public static LoginDTO ToLoginDto(this User userModel)
+        public static User ToUserFromRegisterDto(this RegisterDTO registerDto)
         {
-            return new LoginDTO
+            return new User
             {
-                Username = userModel.Username,
-                Password = userModel.PasswordHash
+                FirstName = registerDto.FirstName,
+                LastName = registerDto.LastName,
+                Email = registerDto.Email,
+                Username = registerDto.Username,
+                PasswordHash = registerDto.Password,
+                DateOfBirth = registerDto.DateOfBirth
             };
         }
     }

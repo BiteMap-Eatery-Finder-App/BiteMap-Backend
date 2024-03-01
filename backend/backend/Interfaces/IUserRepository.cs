@@ -8,5 +8,6 @@ namespace backend.Interfaces
         public User GetByUsername(string username);
         public User GetByEmail(string email);
         public List<User> GetAll();
+        public void Save(User user);
     }
 }

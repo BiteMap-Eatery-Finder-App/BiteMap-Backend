@@ -31,5 +31,25 @@ namespace backend.Services
         {
             return this.iUserRepository.GetAll();
         }
+
+        public void Save(User user)
+        {
+            this.iUserRepository.Save(user);
+        }
+
+        public bool Exists(User user)
+        {
+            List<User> users = this.GetAll();
+
+            foreach(User u in users)
+            {
+                if(u.Username == user.Username || u.Email == user.Email)
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
     }
 }
