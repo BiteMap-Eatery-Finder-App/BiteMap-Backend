@@ -35,5 +35,10 @@ namespace backend.Repositories
         {
             return _context.Users.ToList();
         }
+
+        public void Save(User user)
+        {
+            _context.Users.Add(user);
+        }
     }
 }

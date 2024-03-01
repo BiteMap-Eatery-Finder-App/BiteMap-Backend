@@ -1,4 +1,7 @@
-﻿namespace backend.Models
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace backend.Models
 {
 
     public enum ReservationStatus
@@ -10,6 +13,8 @@
 
     public class Reservation
     {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         public DateTime Date { get; set; }
         public int NumberOfSeats { get; set; }
