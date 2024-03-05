@@ -27,7 +27,7 @@ namespace backend.Controllers
         }
 
         [HttpPost("register")]
-        public ActionResult<User> Register([FromBody] RegisterDTO request)
+        public ActionResult<User> Register(RegisterDTO request)
         {
             string passwordHash = BCrypt.Net.BCrypt.HashPassword(request.Password);
 
