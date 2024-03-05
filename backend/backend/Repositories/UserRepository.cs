@@ -21,8 +21,9 @@ namespace backend.Repositories
 
         public User GetByUsername(string username)
         {
-            List<User> users = _context.Users.ToList();
-            return users.Find(user => user.Username == username);
+            /*List<User> users = _context.Users.ToList();
+            return users.Find(user => user.Username == username);*/
+            return _context.Users.Where(user => user.Username == username).FirstOrDefault();
         }
 
         public User GetByEmail(string email)
