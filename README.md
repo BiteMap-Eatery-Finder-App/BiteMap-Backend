@@ -3,4 +3,4 @@
 # BiteMap
 
 BiteMap is an application that allows the user to search for restaurants, cafes, bars, and other establishments located near him.
-The application was created for the needs of personal development and during its development the skills of backend programming in .NET technologies and frontend in React were improved.
+The application was created for the needs of personal development and during its development, the skills of backend programming in .NET technologies and frontend programming in React were improved.
