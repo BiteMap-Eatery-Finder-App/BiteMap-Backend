@@ -11,14 +11,14 @@ By choosing one of them, the system gives him detailed information about the est
 In addition, the user is given the option of booking a place in a restaurant through the application itself
 
 # Backend
-The backend part of the application was created using .NET framework. PostgreSQL database is used for data storage.
+The backend part of the application was created using the .NET framework. PostgreSQL database is used for data storage.
 
 Regarding security, the application uses the authorization, authentication and JWT service and generates a token for each logged-in user. The token is later used to display and enable the corresponding functionalities. 
 
 In addition to users, for whom BiteMap is primarily intended, there are also System Administrator and Establishment manager roles. Each of these roles has an adequately adapted interface and available functionalities.
 
 # Frontend
-The frontend part of the application was developed using the React. During development, I team made sure that the design was consistent on every page. The style of the application is predefined and maintained throughout the development. A predefined color palette was also used, as well as the size and positioning of text and components on the pages.
+The frontend part of the application was developed using React. During development, I team made sure that the design was consistent on every page. The style of the application is predefined and maintained throughout the development. A predefined color palette was also used, as well as the size and positioning of text and components on the pages.
 
 The Leaflet library was used to display the establishment on the map and to display a path when an establishment is selected.
 
@@ -44,7 +44,7 @@ Each user logs in using their username, which must be unique, and a password tha
 
 After searching for establishments, the user has the opportunity to view the profile of the establishment he likes the most. 
 
-The establishment page shows basic information related to the establishment itself, a map with the exact location where the establishment is located and few different sections with different informations.
+The establishment page shows basic information related to the establishment itself, a map with the exact location where the establishment is located, and a few different sections with different informations.
 
 <a href='https://postimg.cc/WDsW7f3T' target='_blank'><img src='https://i.postimg.cc/DzX9n93J/Visit-Establishment.png' border='0' alt='Visit-Establishment'/></a>
 
@@ -53,6 +53,8 @@ The establishment page shows basic information related to the establishment itse
 On the home section, the user is shown the most basic information related to the establishment itself. He was given the overall rating of the establishment by different sections, a description of the establishment as well as the exact location of the establishment on the map.
 
 <a href='https://postimg.cc/Z903Zrs6' target='_blank'><img src='https://i.postimg.cc/g0HKVsvt/Home-Section.png' border='0' alt='Home-Section'/></a>
+
+#### 2. Reviews
 
 # Author
 * <a href="https://github.com/Nemkac">Nemanja Todorović
