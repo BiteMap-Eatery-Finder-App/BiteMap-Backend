@@ -56,5 +56,7 @@ On the home section, the user is shown the most basic information related to the
 
 #### 2. Reviews
 
+#### 3. Menu
+
 # Author
 * <a href="https://github.com/Nemkac">Nemanja Todorović
