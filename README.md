@@ -54,9 +54,9 @@ On the home section, the user is shown the most basic information related to the
 
 <a href='https://postimg.cc/Z903Zrs6' target='_blank'><img src='https://i.postimg.cc/g0HKVsvt/Home-Section.png' border='0' alt='Home-Section'/></a>
 
-#### 2. Reviews
+#### 2. Reviews section
 
-#### 3. Menu
+#### 3. Menu section
 
 # Author
 * <a href="https://github.com/Nemkac">Nemanja Todorović
