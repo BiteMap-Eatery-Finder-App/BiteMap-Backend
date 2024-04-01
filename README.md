@@ -38,7 +38,8 @@ A new user who has just registered, after activating the profile, is assigned th
 Each user logs in using their username, which must be unique, and a password that is hashed to maintain the security of the account.
 
 <a href='https://postimg.cc/r0jLJrcY' target='_blank'><img src='https://i.postimg.cc/MH2Kz7Lx/Login.png' border='0' alt='Login'/></a>
-<a href='https://postimg.cc/QVNDM0JL' target='_blank'><img src='https://i.postimg.cc/CMkxm2ZK/Register.png' border='0' alt='Register'/></a>
+
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/L8TLjjf9/Register.png' border='0' alt='Register'/></a>
 
 ### Visit establishment
 
@@ -52,7 +53,7 @@ The establishment page shows basic information related to the establishment itse
 
 On the home section, the user is shown the most basic information related to the establishment itself. He was given the overall rating of the establishment by different sections, a description of the establishment as well as the exact location of the establishment on the map.
 
-<a href='https://postimg.cc/Z903Zrs6' target='_blank'><img src='https://i.postimg.cc/g0HKVsvt/Home-Section.png' border='0' alt='Home-Section'/></a>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/QMY7ys0v/Visit-Establishment.png' border='0' alt='Visit-Establishment'/></a>
 
 #### 2. Reviews section
 
